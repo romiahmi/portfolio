@@ -131,7 +131,7 @@
     }
 
     .free_trial {
-        padding: 42px 0;
+        padding: 25px 0;
     }
 
     .dark_mode_btn {
@@ -224,7 +224,7 @@
 
 @media (max-width:375px) {
     .free_trial {
-        padding: 40px 0;
+        padding: 7px 0;
 
     }
 
