@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here">
+  <title>Glycon</title>
+  <!-- Favicon -->
+  <link rel="icon" type="Image/png" href="Images/link logo.png">
+  <!-- icon link bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Bootstrap 5 CND Links -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom File's Link -->
+  <link rel="stylesheet" href="Style Css/Style.css">
+  <link rel="stylesheet" href="Style Css/Responsive Css/responsive-style.css">
+</head>
+<!-- negavation pr jo change horaha hain wo ishi ky thought Scroll horaha .navbar jo navbar banaye gai uski class hum navbar rakhay gai or offset mtlab jo meri navbar ki height hogi wo ye hogi-->
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="85">
+  <!-- navbar section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/logo_new.png" img-fluid alt="logo" id="logoImage">
+        </a>
+        <button class="navbar-toggler pe-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="bi bi-list"></i>
+          <!-- <i class="fas fa-stream navbar-toggler-icon"></i> -->
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faqs">FAQs </a>
+            </li>
+          </ul>
+          <div class="dark_mode_btn">
+            <label class="switch">
+              <input type="checkbox" id="darkModeToggle">
+              <span class="slider"></span>
+            </label>
+          </div>
+          <ul class="navbar-nav">
+            <!-- Dark Mode Toggle Switch -->
+            <li class="nav-item text-center">
+              <a class="nav-link learn-more-btn btn-extra-header contact-btn" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link learn-more-btn" href="#contact">Free Trial</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- navbar section exit -->
+
+  <!-- Banner Section -->
+  <section id="home" class="banner_wrapper">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 header-img-section">
+          <img src="Images/hero_img.png" class="img-fluid" alt="Banner">
+        </div>
+        <!-- my 5 mean top or bottom sy margin my-md-0 mean md sy upper lg xl  xx un pr ye work nhi karay ga ye margin kis pr work karay ga apky sm pr or  mobile screen pr text center ye bhi mobile screen pr-->
+        <div class="col-md-6 my-5 my-md-0 text-center text-md-start">
+          <p class="banner-subtitle">Social Media Marketing</p>
+          <h1 class="banner-title">Strat <span>Connecting</span> with your online customers</h1>
+          <p class="banner-title-text">Hashing is a bright and results driven social media marketing drive customers,
+            grow your audience and expand your reach.</p>
+          <div class="learn-more-btn-section">
+            <a class="nav-link learn-more-btn btn-header" href="#about">Start your free trial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Section Exit -->
+
+  <!-- Client Section -->
+  <div class="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Trusted by Client across the globe</h2>
+        </div>
+        <div class="col-12">
+          <!-- <div class="client-slider-section">
+            <div class="item">
+              <img src="Images/dummy_logo1.png">
+            </div>
+            <div class="item">
+              <img src="Images/dummy_logo2.png">
+            </div>
+            <div class="item">
+              <img src="Images/dummy_logo3.png">
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Client Section Exit -->
+
+  <!-- About Section -->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- col sm 12 it mean ky wo small screen pr puri ki puri full width pr rahay  -->
+        <!-- text lg start mean mera content left ki taraf rahay -->
+        <div class="col-sm-12 col-lg-5 text-center text-lg-start">
+          <p class="about_number">1</p>
+          <h2 class="about_title">Showcase your brand beautiful with our services</h2>
+          <p class="about_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci et repellat, neque
+            totam facilis voluptas amet blanditiis maiores quasi, vero illo molestiae eaque aut!</p>
+          <div class="my-5">
+            <a class="learn-more-btn" href="#innovate">Find out more</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-7 text-center text-md-start">
+          <img src="Images/commerce.png" class="img-fluid" id="img-fluid-1">
+        </div>
+      </div>
+    </div>
+    <div class="innvoate mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-lg-6 px-5 text-center text-md-start order">
+            <img src="Images/innovation.png" class="img-fluid" id="img-fluid-2">
+          </div>
+          <div class="col-sm-12 col-lg-6 text-center text-lg-start">
+            <p class="about_number">2</p>
+            <h2 class="about_title">The best digital marketing company we understand your needs</h2>
+            <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisic2ing elit. Vel commodi fugiat amet
+              aspernatur! Omnis, ea molestiae aliquid, corporis velit ipsam, dicta facilis saepe aut adipisci nisi
+              dolores veniam porro voluptates?</p>
+            <div class="mt-5">
+              <a class="learn-more-btn btn-header" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 text-center">
+            <h2>8,500</h2>
+            <p>Completed Projects</p>
+          </div>
+          <div class="col-sm-6 col-lg-3 text-center">
+            <h2>9,470</h2>
+            <p>Happy clients</p>
+          </div>
+          <div class="col-sm-6 col-lg-3 text-center">
+            <h2>1,120</h2>
+            <p> Ongoing Projects</p>
+          </div>
+          <div class="col-sm-6 col-lg-3 text-center">
+            <h2>152</h2>
+            <p>Awards Won</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section Exit-->
+
+  <!-- Features Section -->
+  <Section id="features" class="features_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <p class="features_subtitle">So much to offer</p>
+          <h2 class="features_title">Our automated features</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="ft-1">
+            <h3>Consultancy</h3>
+            <p class="feautures_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, velit obcaecati.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="ft-2">
+            <h3>Tech Solutions</h3>
+            <p class="feautures_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, velit obcaecati.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="ft-3">
+            <h3>User Dashboard</h3>
+            <p class="feautures_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, velit obcaecati.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="ft-4">
+            <h3>Deadline Notification</h3>
+            <p class="feautures_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, velit obcaecati.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="ft-5">
+            <h3>Data Retrievel</h3>
+            <p class="feautures_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, velit obcaecati.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="ft-6">
+            <h3>Flexible System</h3>
+            <p class="feautures_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, velit obcaecati.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+  </Section>
+
+  <!-- Features Section Exit -->
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="price_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center ">
+          <p class="price_subtitle">A plan of everyone</p>
+          <h2 class="price_title">Choose your pricing plan</h2>
+        </div>
+      </div>
+      <div class="row align-items-center px-3 px-lg-0">
+        <!-- 1 Card -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="pricing_card pricing_one">
+            <p class="pricing_period"></p>Personal
+            <img src="Images/personal.png" class="img-fluid">
+            <p class="pricing_rate">FREE</p>
+            <p class="pricing_text">monthly</p>
+            <div class="pricing_all_plan">
+              <ul>
+                <li>Unlimited Accounts</li>
+                <li>System Management</li>
+                <li>Database Statistics</li>
+                <li><strike>Exportable Data</strike></li>
+              </ul>
+            </div>
+
+            <a class="learn-more-btn m-0" href="#contact">Get Started</a>
+          </div>
+        </div>
+        <!-- 2 Card -->
+        <div class="col-sm-6 col-lg-4 position-relative">
+          <div class="pricing-ribbon"><span>Popular</span></div>
+          <div class="pricing_card featured">
+            <p class="pricing_period">Growth</p>
+
+            <img src="Images/growth.png" class="img-fluid">
+            <p class="pricing_rate">$214.99</p>
+            <p class="pricing_text">monthly</p>
+            <div class="pricing_all_plan">
+              <ul>
+                <li>Unlimited Accounts</li>
+                <li>System Management</li>
+                <li>Database Statistics</li>
+                <li><strike>Exportable Data</strike></li>
+              </ul>
+            </div>
+
+            <a class="learn-more-btn btn-featured" href="#contact">Get Started</a>
+          </div>
+        </div>
+        <!-- 3 Card -->
+        <div class="col-sm-6 col-lg-4" id="card-3">
+          <div class="pricing_card pricing_one">
+            <p class="pricing_period"></p>Professional
+
+            <img src="Images/professional.png" class="img-fluid">
+            <p class="pricing_rate">$499.99</p>
+            <p class="pricing_text">monthly</p>
+            <div class="pricing_all_plan">
+              <ul>
+                <li>Unlimited Accounts</li>
+                <li>System Management</li>
+                <li>Database Statistics</li>
+                <li>Exportable Data</li>
+              </ul>
+            </div>
+            <a class="learn-more-btn m-0" href="#contact">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Free Trial -->
+    <div class="free_trial">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-lg-6 text-center text-lg-start">
+            <h2 class="free_title">Ready to get started now with out multipurpose landing page?</h2>
+          </div>
+          <div class="col-sm-12 col-lg-6 text-center text-lg-end mt-4 mt-lg-0">
+            <a class="learn-more-btn" href="#contact"> <i class="fa fa-rocket"></i>Start a free trial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing Section Exit-->
+
+  <!-- FAQ Section -->
+  <section id="faqs" class="faq_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <p class="faq_subtitle">We're here to help</p>
+          <h2 class="faq_title">Frequently asked questions</h2>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-lg-8 mb-5 mb-lg-0">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  1. How does the free trial work?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is the first item's accordion body. It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2. What happens when my trial ends?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3. How do I a make payments?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4. Can i upgrade my pan any time?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5. How do i get in touch with support?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <img src="Images/faq.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- Send message -->
+    <div class="free_trial">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-lg-6 text-center text-lg-start">
+            <h2 class="free_title">Question not listed above? send us a message and we'll get back to you</h2>
+          </div>
+          <div class="col-sm-12 col-lg-6 text-center text-lg-end mt-4 mt-lg-0">
+            <a class="learn-more-btn" href="#contact"> <i class="fa fa-rocket"></i>Free Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!-- FAQ Section Exit-->
+
+  <!-- Footer Section -->
+  <section id="contact" class="footer_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 footer_logo mb-4 mb-lg-0">
+          <img src="Images/logo_white.png" alt="">
+          <p class="footer_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore saepe assumenda
+            amet aliquam ipsum facilis deserunt dolor, doloribus repellat ducimus quas asperiores vel quaerat non
+            eveniet. Quibusdam, tempora quo.</p>
+        </div>
+        <div class="col-lg-4 px-lg-5 mb-4 mb-lg-0">
+          <h3 class="footer_title">Contact</h3>
+          <p class="footer_text">
+            <a href="#"> +1 407-859-5068</a>
+            <a href="#">info.services@hashting.com</a><br>
+            <a href="#" class="footer-address">301 McDonald Avenue City Orlando State Florida,United State</a>
+          </p>
+        </div>
+        <div class="col-lg-3 mb-4 mb-lg-0">
+          <h3 class="footer_title">Social Media</h3>
+          <p>
+            <a href="#" class="footer_social_media_icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fab fa-dribbble"></i></a>
+          </p>
+        </div>
+        <div class="col-12 footer_credits text-center">
+          <span>&copy; 2024 <a href="#" target="_blank" title="hashting">hashting</a>&trade;.All Rights Reserved.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section Exit-->
+
+
+  <!--JQuery CND Link  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- BootStrap 5 JS CND Links -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Js Link -->
+  <script src="Script JS/Script.js"></script>
+</body>
+
+</html>
